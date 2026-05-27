@@ -17,7 +17,7 @@
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.12em;
-  color: #3b82f6;
+  color: #0d9488;
   text-transform: uppercase;
   margin-bottom: 12px;
 }
@@ -31,7 +31,7 @@
 }
  
 .contact-title .highlight {
-  color: #2563eb;
+  color: #0d9488;
 }
  
 .contact-subtitle {
@@ -89,7 +89,7 @@
   height: 18px;
 }
  
-.phone-icon    { background-color: #dbeafe; color: #2563eb; }
+.phone-icon    { background-color: #ccfbf1; color: #2563eb; }
 .whatsapp-icon { background-color: #dcfce7; color: #16a34a; }
 .email-icon    { background-color: #fce7f3; color: #db2777; }
 .location-icon { background-color: #ede9fe; color: #7c3aed; }
@@ -193,7 +193,7 @@
 .form-group input:focus,
 .form-group textarea:focus {
   border-color: #2563eb;
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.1);
   background: #fff;
 }
  
@@ -227,7 +227,7 @@
 }
  
 .btn-send:hover {
-  background: #1d4ed8;
+  background: #0f766e;
   transform: translateY(-1px);
 }
  
