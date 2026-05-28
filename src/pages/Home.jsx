@@ -1,4 +1,9 @@
 import './Home.css';
+import hygiene from '../assets/hygiene.jpg';
+import baby from '../assets/baby.jpg';
+import orthopedic from '../assets/orthopedic.jpg';
+import physiotherapy from '../assets/physiotherapy.jpg';
+import surgical from '../assets/surgical.jpg';
 import { Link } from 'react-router-dom';
 
 import heroImg from '../assets/hero-medical.jpg';
@@ -78,35 +83,35 @@ function HeroSection() {
 function ProductsSection() {
   const featured = [
     {
-      icon: '🩺',
+      image: orthopedic,
       name: 'Orthopaedic Supports & Braces',
       brand: 'Samson',
       desc: 'Cervical, lumbar, knee, ankle, wrist supports and compression garments for clinical and home use.',
       link: '/products',
     },
     {
-      icon: '💉',
+      image: surgical,
       name: 'Medical Disposables & Surgical',
       brand: 'Aurum Care',
       desc: 'Sterile, single-use infusion sets, cannulas, syringes, catheters and more — manufactured to IP/BP/USP standards.',
       link: '/products',
     },
     {
-      icon: '🌸',
+      image: hygiene,
       name: 'Feminine Hygiene Care',
       brand: 'Dreamease',
       desc: 'Period panties, sanitary pads, menstrual cups, intimate wash and pregnancy test kits.',
       link: '/products',
     },
     {
-      icon: '👶',
+      image: baby,
       name: 'Baby Care',
       brand: 'Dreamease',
       desc: 'Pant-style diapers in all sizes, water-based baby wipes and honey wipes — dermatologically safe.',
       link: '/products',
     },
     {
-      icon: '🏃',
+      image: physiotherapy,
       name: 'Physiotherapy & Rehabilitation',
       brand: 'Samson',
       desc: 'Resistance bands, gym balls, hot & cold packs, heating pads, nebulisers and orthopaedic pillows.',
