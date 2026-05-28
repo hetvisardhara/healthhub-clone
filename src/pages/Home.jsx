@@ -131,9 +131,13 @@ function ProductsSection() {
         <div className="products-grid">
           {featured.map((product, index) => (
             <Link to={product.link} className="product-card home-product-card" key={index}>
-              <div className="home-product-icon-wrap">
-                <span className="home-product-icon">{product.icon}</span>
-              </div>
+              <div className="home-product-image-wrap">
+  <img
+    src={product.image}
+    alt={product.name}
+    className="home-product-image"
+  />
+</div>
               <div className="product-info home-product-info">
                 <div>
                   <div className="home-product-brand">{product.brand}</div>
