@@ -2,13 +2,6 @@ import './Home.css';
 import { Link } from 'react-router-dom';
 
 import heroImg from '../assets/hero-medical.jpg';
-import orthopedicImg from '../assets/orthopedic.jpg';
-import surgicalImg from '../assets/surgical.jpg';
-import hygieneImg from '../assets/hygiene.jpg';
-import equipmentImg from '../assets/equipment.jpg';
-import physiotherapyImg from '../assets/physiotherapy.jpg';
-import babyImg from '../assets/baby.jpg';
-import adultImg from '../assets/adult.jpg';
 
 // ── 1. HERO ──────────────────────────────────────────
 function HeroSection() {
@@ -83,29 +76,62 @@ function HeroSection() {
 
 // ── 2. PRODUCTS ──────────────────────────────────────
 function ProductsSection() {
-  const products = [
-    { name: 'Orthopedic Products', desc: 'Supports, braces & mobility aids', img: orthopedicImg, link: '/products/orthopedic' },
-    { name: 'Surgical & Medical Disposables', desc: 'Hospital-grade disposables', img: surgicalImg, link: '/products/surgical' },
-    { name: 'Hygiene Care', desc: 'Personal & intimate hygiene', img: hygieneImg, link: '/products/hygiene' },
-    { name: 'Medical Equipment', desc: 'Devices for care & recovery', img: equipmentImg, link: '/products/equipment' },
-    { name: 'Physiotherapy Products', desc: 'Rehab & recovery essentials', img: physiotherapyImg, link: '/products/physiotherapy' },
-    { name: 'Baby Care', desc: 'Gentle care for little ones', img: babyImg, link: '/products/baby' },
-    { name: 'Adult Care', desc: 'Comfort & dignity', img: adultImg, link: '/products/adult' },
+  const featured = [
+    {
+      icon: '🩺',
+      name: 'Orthopaedic Supports & Braces',
+      brand: 'Samson',
+      desc: 'Cervical, lumbar, knee, ankle, wrist supports and compression garments for clinical and home use.',
+      link: '/products',
+    },
+    {
+      icon: '💉',
+      name: 'Medical Disposables & Surgical',
+      brand: 'Aurum Care',
+      desc: 'Sterile, single-use infusion sets, cannulas, syringes, catheters and more — manufactured to IP/BP/USP standards.',
+      link: '/products',
+    },
+    {
+      icon: '🌸',
+      name: 'Feminine Hygiene Care',
+      brand: 'Dreamease',
+      desc: 'Period panties, sanitary pads, menstrual cups, intimate wash and pregnancy test kits.',
+      link: '/products',
+    },
+    {
+      icon: '👶',
+      name: 'Baby Care',
+      brand: 'Dreamease',
+      desc: 'Pant-style diapers in all sizes, water-based baby wipes and honey wipes — dermatologically safe.',
+      link: '/products',
+    },
+    {
+      icon: '🏃',
+      name: 'Physiotherapy & Rehabilitation',
+      brand: 'Samson',
+      desc: 'Resistance bands, gym balls, hot & cold packs, heating pads, nebulisers and orthopaedic pillows.',
+      link: '/products',
+    },
   ];
+
   return (
     <section className="products-section">
       <div className="section-inner">
         <div className="section-label">PRODUCT RANGE</div>
         <h2 className="section-title">A complete healthcare catalog</h2>
-        <p className="section-sub">From orthopedic supports to hospital-grade disposables — sourced from quality-certified manufacturers.</p>
+        <p className="section-sub">
+          From orthopedic supports to hospital-grade disposables — sourced from quality-certified manufacturers.
+        </p>
+
         <div className="products-grid">
-          {products.map((product, index) => (
-            <Link to={product.link} className="product-card" key={index}>
-              <div className="product-img-wrapper">
-                <img src={product.img} alt={product.name} className="product-img" />
+          {featured.map((product, index) => (
+            <Link to={product.link} className="product-card home-product-card" key={index}>
+              <div className="home-product-icon-wrap">
+                <span className="home-product-icon">{product.icon}</span>
               </div>
-              <div className="product-info">
+              <div className="product-info home-product-info">
                 <div>
+                  <div className="home-product-brand">{product.brand}</div>
                   <div className="product-name">{product.name}</div>
                   <div className="product-desc">{product.desc}</div>
                 </div>
@@ -113,6 +139,12 @@ function ProductsSection() {
               </div>
             </Link>
           ))}
+        </div>
+
+        <div className="products-explore-row">
+          <Link to="/products" className="btn-explore-all">
+            Explore All 14 Categories →
+          </Link>
         </div>
       </div>
     </section>
@@ -125,7 +157,7 @@ function WhyChooseUs() {
     { icon: '🤝', title: 'Trusted Distribution', desc: 'Verified, compliant supply chain partners across India.' },
     { icon: '✅', title: 'Quality Products', desc: 'Hospital-grade products from certified manufacturers.' },
     { icon: '⚡', title: 'Fast Supply', desc: 'Same-day dispatch and reliable pan-India delivery.' },
-    { icon: '📦', title: 'Wide Product Range', desc: '9+ categories, 500+ SKUs under a single roof.' },
+    { icon: '📦', title: 'Wide Product Range', desc: '14+ categories, 500+ SKUs under a single roof.' },
     { icon: '💰', title: 'Affordable Pricing', desc: 'Direct distributor pricing for wholesale buyers.' },
     { icon: '📞', title: 'Professional Support', desc: 'Dedicated B2B support team for every inquiry.' },
   ];
@@ -215,7 +247,7 @@ function CTABanner() {
   );
 }
 
-// ── MAIN HOME — always at the bottom ─────────────────
+// ── MAIN HOME ─────────────────────────────────────────
 function Home() {
   return (
     <div className="home">
