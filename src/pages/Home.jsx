@@ -143,7 +143,7 @@ function ProductsSection() {
 
         <div className="products-explore-row">
           <Link to="/products" className="btn-explore-all">
-            Explore All 14 Categories →
+            Explore All Categories →
           </Link>
         </div>
       </div>
