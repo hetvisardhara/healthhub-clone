@@ -1,11 +1,22 @@
 import React, { useState } from "react";
 import "./Products.css";
+import "./Products.css";
+
+import hygiene from "../assets/hygiene.jpg";
+import baby from "../assets/baby.jpg";
+import fractureaids from "../assets/fractureaids.JPG";
+import orthopedic from "../assets/orthopedic.jpg";
+import physiotherapy from "../assets/physiotherapy.jpg";
+import surgical from "../assets/surgical.jpg";
+import surgicaldressing from "../assets/surgicaldressing.JPG";
+import woundcare from "../assets/woundcare&cotton.jpeg";
 
 const products = [
   {
     id: 1,
     brand: "Dreamease",
     category: "Feminine Hygiene Care",
+     image: hygiene,
     desc: "Premium feminine hygiene and wellness essentials.",
     subproducts: [
       "Disposable Period Panty",
@@ -21,6 +32,7 @@ const products = [
     id: 2,
     brand: "Dreamease",
     category: "Baby Care",
+    image: baby,
     desc: "Dermatologically safe baby hygiene products.",
     subproducts: [
       "Baby Diapers Pant Style (NB, S, M, L & XL)",
@@ -57,6 +69,7 @@ const products = [
     id: 5,
     brand: "Aurum Care",
     category: "Medical Disposables / Surgical",
+    image: surgical,
     desc: "Hospital-grade disposable and surgical products.",
     subproducts: [
       "Au-Fix Infusion Set (Classic & Ultra)",
@@ -78,6 +91,7 @@ const products = [
     id: 6,
     brand: "Wellness Surgical / Kramson",
     category: "Wound Care & Cotton",
+    image: woundcare,
     desc: "Cotton, gauze, bandages and wound care essentials.",
     subproducts: [
       "Absorbent Cotton (Wellness Surgical & Kramson)",
@@ -96,6 +110,7 @@ const products = [
     id: 7,
     brand: "Samson",
     category: "Orthopaedic Supports & Braces",
+    image: orthopedic,
     desc: "Orthopaedic rehabilitation and support products.",
     subproducts: [
       "Cervical Orthosis Philadelphia",
@@ -135,6 +150,7 @@ const products = [
     id: 8,
     brand: "Samson",
     category: "Fracture Aids",
+    image: fractureaids,
     desc: "Immobilization and fracture management products.",
     subproducts: [
       "Shoulder Immobilizer (Universal & Elastic)",
@@ -171,6 +187,7 @@ const products = [
     id: 10,
     brand: "Samson",
     category: "Physiotherapy & Rehabilitation",
+      image: physiotherapy,
     desc: "Recovery, rehabilitation and physiotherapy aids.",
     subproducts: [
       "Cervical Pillow",
@@ -213,6 +230,7 @@ const products = [
     id: 12,
     brand: "Samson",
     category: "Surgical Dressing",
+      image: surgicaldressing,
     desc: "Professional surgical dressing products.",
     subproducts: [
       "SAM POP Plaster of Paris Bandage",
@@ -355,8 +373,16 @@ const Products = () => {
           {filtered.map((product) => (
             <div className="product-card" key={product.id}>
               <div className="product-card-img placeholder-card">
-                <div className="placeholder-icon">🏥</div>
-              </div>
+  {product.image ? (
+    <img
+      src={product.image}
+      alt={product.category}
+      className="product-image"
+    />
+  ) : (
+    <div className="placeholder-icon">🏥</div>
+  )}
+</div>
 
               <div className="product-card-body">
                 <p className="product-category-name">{product.category}</p>
