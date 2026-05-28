@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import "./Products.css";
 
@@ -54,10 +55,7 @@ const products = [
 
       {
         name: "Baby Wipes",
-        variants: [
-          "Regular 99% Water Based",
-          "Honey",
-        ],
+        variants: ["Regular 99% Water Based", "Honey"],
       },
     ],
   },
@@ -125,10 +123,7 @@ const products = [
     subproducts: [
       {
         name: "Au-Fix Infusion Set",
-        variants: [
-          "Classic",
-          "Ultra with Air Vent",
-        ],
+        variants: ["Classic", "Ultra with Air Vent"],
       },
 
       {
@@ -138,13 +133,7 @@ const products = [
 
       {
         name: "Au-Flon IV Cannula",
-        sizes: [
-          "18G",
-          "20G",
-          "22G",
-          "24G",
-          "26G",
-        ],
+        sizes: ["18G", "20G", "22G", "24G", "26G"],
       },
 
       {
@@ -458,21 +447,27 @@ const Products = () => {
 
                     {item.sizes && (
                       <p>
-                        <strong>Sizes:</strong>{" "}
+                        <strong>
+                          Sizes:
+                        </strong>{" "}
                         {item.sizes.join(", ")}
                       </p>
                     )}
 
                     {item.colors && (
                       <p>
-                        <strong>Colors:</strong>{" "}
+                        <strong>
+                          Colors:
+                        </strong>{" "}
                         {item.colors.join(", ")}
                       </p>
                     )}
 
                     {item.variants && (
                       <p>
-                        <strong>Variants:</strong>{" "}
+                        <strong>
+                          Variants:
+                        </strong>{" "}
                         {item.variants.join(", ")}
                       </p>
                     )}
