@@ -350,4 +350,24 @@
     padding: 6px 12px;
   }
 }
- 
+ /* Placeholder image card */
+
+.placeholder-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f1f5f9, #e2e8f0);
+}
+
+.placeholder-icon {
+  font-size: 3rem;
+  opacity: 0.8;
+}
+.product-category-name {
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  color: #1d9bf0;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}

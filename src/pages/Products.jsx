@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Products.css";
 
 
+
 const products = [
   {
     id: 1,
@@ -360,9 +361,13 @@ const Products = () => {
 
               <div className="product-card-body">
 
-                <h3 className="product-card-title">
-                  {product.title}
-                </h3>
+              <p className="product-category-name">
+  {product.category}
+</p>
+
+<h3 className="product-card-title">
+  {product.title}
+</h3>
 
                 <p className="product-card-desc">
                   {product.desc}
