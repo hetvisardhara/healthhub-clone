@@ -2,6 +2,12 @@ import React, { useState } from "react";
 import "./Products.css";
 import "./Products.css";
 
+import adultincontinence from "../assets/adultincontinence.png";
+import womenswellness from "../assets/womenswellness.png";
+import tractionkit from "../assets/tractionkit.png";
+import walkingaids from "../assets/walkingaids.jpeg";
+import sportgear from "../assets/sportgear.png";
+import last from "../assets/last.png";
 import hygiene from "../assets/hygiene.jpg";
 import baby from "../assets/baby.jpg";
 import fractureaids from "../assets/fractureaids.JPG";
@@ -44,6 +50,7 @@ const products = [
     id: 3,
     brand: "Dreamease",
     category: "Adult Incontinence",
+    image: adultincontinence,
     desc: "Comfort-focused adult care and protection solutions.",
     subproducts: [
       "Adult Pant Diaper Standard (M, L & XL)",
@@ -57,6 +64,7 @@ const products = [
     id: 4,
     brand: "Dreamease",
     category: "Women's Wellness",
+    image: womenswellness,
     desc: "Daily wellness gummies and nutrition support.",
     subproducts: [
       "UTI Defence Gummies",
@@ -170,6 +178,7 @@ const products = [
     id: 9,
     brand: "Samson",
     category: "Traction Kits",
+    image: tractionkit,
     desc: "Professional traction systems and accessories.",
     subproducts: [
       "Cervical Traction Head Halter",
@@ -215,6 +224,7 @@ const products = [
     id: 11,
     brand: "Samson",
     category: "Walking Aids & Mobility",
+    image: walkingaids,
     desc: "Mobility assistance and rehabilitation equipment.",
     subproducts: [
       "Commode (Stool & Chair)",
@@ -247,6 +257,7 @@ const products = [
     id: 13,
     brand: "Samson Sport",
     category: "Sport Gear",
+     image: sportgear,
     desc: "Sports supports and gym protection products.",
     subproducts: [
       "Abdominal Support",
@@ -267,6 +278,7 @@ const products = [
     id: 14,
     brand: "Samson Junior",
     category: "Junior / Paediatric Range",
+     image: last,
     desc: "Healthcare and orthopaedic products for children.",
     subproducts: [
       "Cervical Orthosis Philadelphia (Child)",
