@@ -131,6 +131,22 @@ import sub915 from "../assets/9.15.png";
 import sub916 from "../assets/9.16.png";
 import sub917 from "../assets/9.17.png";
 
+import sub101 from "../assets/10.1.png";
+import sub102 from "../assets/10.2.png";
+import sub103 from "../assets/10.3.png";
+import sub104 from "../assets/10.4.png";
+import sub105 from "../assets/10.5.png";
+import sub106 from "../assets/10.6.png";
+import sub107 from "../assets/10.7.png";
+import sub108 from "../assets/10.8.png";
+import sub109 from "../assets/10.9.png";
+import sub1010 from "../assets/10.10.png";
+import sub1011 from "../assets/10.11.png";
+import sub1012 from "../assets/10.12.png";
+import sub1013 from "../assets/10.13.png";
+import sub1014 from "../assets/10.14.png";
+import sub1015 from "../assets/10.15.png";
+
 import sub121 from "../assets/12.1.png";
 import sub122 from "../assets/12.2.png";
 import sub123 from "../assets/12.3.png";
@@ -378,50 +394,46 @@ const products = [
   image: walkingaids,
   desc: "Ankle support, braces and splints for all needs.",
   subproducts: [
-    { name: "Ankle Binder", image: sub161, desc: "S, M, L, XL sizes" },
-    { name: "Anklet (Pair)", image: sub162, desc: "S, M, L, XL, XXL sizes" },
-    { name: "Foot Drop Splint Right/Left with Liner", image: sub163, desc: "CH, S, M, L, XL sizes" },
-    { name: "Ankle Splint", image: sub164, desc: "Universal size" },
-    { name: "Ankle Brace", image: sub165, desc: "CH, S, M, L, XL sizes" },
-    { name: "PF Night Splint", image: sub166, desc: "S, M, L sizes" },
-    { name: "Dorsal Night Splint", image: sub167, desc: "S/M, L/XL sizes" },
-    { name: "Ankle Support with Binder", image: sub168, desc: "S, M, L, XL, XXL sizes" },
-    { name: "Air Ankle Splint", image: sub169, desc: "Universal size" },
-    { name: "Gel Ankle Splint", image: sub1610, desc: "Universal size" },
-    { name: "Foot Walker Boot with Airway", image: sub1611, desc: "S, M, L sizes" },
-    { name: "R.O.M Foot Walker Boot", image: sub1612, desc: "S, M, L sizes" },
-    { name: "Foot Walker Boot Short (With Airway)", image: sub1612, desc: "S, M, L sizes" },
-    { name: "R.O.M Foot Walker Boot", image: sub1612, desc: "S, M, L sizes" },
-    { name: "R.O.M Foot Walker Boot", image: sub1612, desc: "S, M, L sizes" },
+    { name: "Ankle Binder", image: sub101, desc: "S, M, L, XL sizes" },
+    { name: "Anklet (Pair)", image: sub102, desc: "S, M, L, XL, XXL sizes" },
+    { name: "Foot Drop Splint Right/Left with Liner", image: sub103, desc: "CH, S, M, L, XL sizes" },
+    { name: "Ankle Splint", image: sub104, desc: "Universal size" },
+    { name: "Ankle Brace", image: sub105, desc: "CH, S, M, L, XL sizes" },
+    { name: "PF Night Splint", image: sub106, desc: "S, M, L sizes" },
+    { name: "Dorsal Night Splint", image: sub107, desc: "S/M, L/XL sizes" },
+    { name: "Ankle Support with Binder", image: sub108, desc: "S, M, L, XL, XXL sizes" },
+    { name: "Air Ankle Splint", image: sub109, desc: "Universal size" },
+    { name: "Gel Ankle Splint", image: sub1010, desc: "Universal size" },
+    { name: "Foot Walker Boot with Airway", image: sub1011, desc: "S, M, L sizes" },
+    { name: "R.O.M Foot Walker Boot", image: sub1012, desc: "S, M, L sizes" },
+    { name: "Foot Walker Boot Short (With Airway)", image: sub1013, desc: "S, M, L sizes" },
+    { name: "R.O.M Foot Walker Boot", image: sub1014, desc: "S, M, L sizes" },
+    { name: "R.O.M Foot Walker Boot", image: sub1015, desc: "S, M, L sizes" },
+  ],
+},{
+  id: 11,
+  brand: "Samson",
+  category: "Thigh & Calf Support / Varicose Vein Compression Stockings",
+  image: orthopedic,
+  desc: "Compression supports and medical stockings for circulation care.",
+  subproducts: [
+    { name: "Thigh Support (Pair)", image: sub111, desc: "TC-1101 S,M,L,XL,XXL sizes" },
+    { name: "Calf Support (Pair)", image: sub112, desc: "TC-1102 S,M,L,XL,XXXL sizes" },
+    { name: "Medical Compression Stockings Thigh High Class-I AG (Pair)", image: sub113, desc: "GS-1201 S,M,L,XL,XXL" },
+    { name: "Medical Compression Stockings Knee High Class-II AD (Pair)", image: sub114, desc: "GS-1202 S,M,L,XL,XXL" },
+    { name: "Anti-Embolism Stockings/DVT Thigh High AG (Pair)", image: sub115, desc: "GS-1203 S,M,L,XL,XXL" },
+    { name: "Arthritis Compression Gloves", image: sub116, desc: "GS-1204 S,M,L,XL" },
+    { name: "Lymphedema Arm Sleeve (Pair)", image: sub117, desc: "GS-1205 S,M,L,XL,XXL" },
+    { name: "Graduated Compression Socks (Pair)", image: sub118, desc: "GS-1206 S,M,L,XL" },
+    { name: "Graduated Compression Socks (Ankle Size) (Pair)", image: sub119, desc: "GS-1207 UNIVERSAL" },
+    { name: "Medical Compression Stockings Thigh High Class-I AG (Pair)", image: sub1110, desc: "GS-1208 S,M,L,XL,XXL" },
+    { name: "Medical Compression Stockings Knee High Class-I AD (Pair)", image: sub1111, desc: "GS-1209 S,M,L,XL,XXL" },
+    { name: "Varicose Vein Stockings Classic (Pair)", image: sub1112, desc: "GS-1210 S,M,L,XL,XXL" },
+    { name: "Varicose Vein Stockings Below Knee Classic (Pair)", image: sub1113, desc: "GS-1211 S,M,L,XL,XXL" },
+    { name: "Compression Garment Face Open Hood", image: sub1114, desc: "GS-1212 UNIVERSAL,SPL" },
   ],
 },
 {
-  id: 11,
-  brand: "Samson",
-  category: "Walking Aids & Mobility",
-  image: walkingaids,
-  desc: "Mobility assistance and rehabilitation equipment.",
-  subproducts: [
-    "Commode Stool",
-    "Commode Chair",
-    "Walking Stick Soft Top Handle",
-    "Foldable Stick",
-    "Quadra Stick",
-    "Elbow Crutch Adjustable",
-    "Walker Invalid's HD",
-    "Walker Invalid's Front Wheel HD",
-    "Axillary Crutch Pair",
-    "Walking Stick Quadripod",
-    "Wheelchair Standard",
-    "Wheelchair with Commode",
-    "Electric Wheelchair",
-    "Spirometer",
-    "Nebuliser",
-    "Heating Pad Ortho",
-    "Ortho Heating Gel Bag Electric",
-    "Air Mattress",
-  ],
-},{
     id: 12,
     brand: "Samson",
     category: "Surgical Dressing",
