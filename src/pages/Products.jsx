@@ -147,6 +147,21 @@ import sub1013 from "../assets/10.13.png";
 import sub1014 from "../assets/10.14.png";
 import sub1015 from "../assets/10.15.png";
 
+import sub111 from "../assets/11.1.png";
+import sub112 from "../assets/11.2.png";
+import sub113 from "../assets/11.3.png";
+import sub114 from "../assets/11.4.png";
+import sub115 from "../assets/11.5.png";
+import sub116 from "../assets/11.6.png";
+import sub117 from "../assets/11.7.png";
+import sub118 from "../assets/11.8.png";
+import sub119 from "../assets/11.9.png";
+import sub1110 from "../assets/11.10.png";
+import sub1111 from "../assets/11.11.png";
+import sub1112 from "../assets/11.12.png";
+import sub1113 from "../assets/11.13.png";
+import sub1114 from "../assets/11.14.png";
+
 import sub121 from "../assets/12.1.png";
 import sub122 from "../assets/12.2.png";
 import sub123 from "../assets/12.3.png";
