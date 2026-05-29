@@ -61,6 +61,15 @@ import sub610 from "../assets/6.10.jpeg";
 import sub611 from "../assets/6.11.png";
 import sub612 from "../assets/6.12.png";
 
+import sub121 from "../assets/12.1.png";
+import sub122 from "../assets/12.2.png";
+import sub123 from "../assets/12.3.png";
+import sub124 from "../assets/12.4.png";
+import sub125 from "../assets/12.5.png";
+import sub126 from "../assets/12.6.png";
+import sub127 from "../assets/12.7.png";
+import sub128 from "../assets/12.8.png";
+
 import sub131 from "../assets/13.1.png";
 import sub132 from "../assets/13.2.png";
 import sub133 from "../assets/13.3.png";
@@ -334,15 +343,15 @@ const products = [
       image: surgicaldressing,
     desc: "Professional surgical dressing products.",
     subproducts: [
-      "SAM POP Plaster of Paris Bandage",
-      "SAM PORE Microporous Paper Tape (5m & 9m)",
-      "Kinesiology Therapeutic Tape",
-      "SAM CREPE Cotton Crepe Bandage",
-      "SAM NETT Stockinette",
-      "SAM PLAST Elastic Adhesive Bandage",
-      "SAM FIX Cannula Fixator",
-      "CAST PAD Soft Roll",
-    ],
+  { name: "SAM POP Plaster of Paris Bandage", image: sub121, desc: "Plaster of paris bandage" },
+  { name: "SAM PORE Microporous Paper Tape (5m & 9m)", image: sub122, desc: "5m & 9m variants" },
+  { name: "Kinesiology Therapeutic Tape", image: sub123, desc: "Therapeutic kinesiology tape" },
+  { name: "SAM CREPE Cotton Crepe Bandage", image: sub124, desc: "Cotton crepe bandage" },
+  { name: "SAM NETT Stockinette", image: sub125, desc: "Tubular stockinette" },
+  { name: "SAM PLAST Elastic Adhesive Bandage", image: sub126, desc: "Elastic adhesive bandage" },
+  { name: "SAM FIX Cannula Fixator", image: sub127, desc: "Secure cannula fixation" },
+  { name: "CAST PAD Soft Roll", image: sub128, desc: "Soft cast padding roll" },
+],
   },
   {
     id: 13,
