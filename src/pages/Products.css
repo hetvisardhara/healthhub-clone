@@ -535,3 +535,11 @@
   padding: 8px;
   background: #fff;
 }
+.modal-subproduct-emoji {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: #f1f5f9;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+}
