@@ -23,6 +23,10 @@ import sub4 from "../assets/1.4.jpg";
 import sub5 from "../assets/1.5.jpg";
 import sub6 from "../assets/1.6.jpg";
 import sub7 from "../assets/1.7.jpeg";
+import sub41 from "../assets/4.1.jpg";
+import sub42 from "../assets/4.2.jpg";
+import sub43 from "../assets/4.3.jpg";
+import sub44 from "../assets/4.4.jpeg";
 
 const products = [
  
@@ -70,19 +74,22 @@ const products = [
       "Underpad Sheet with Sticking Release Tape",
     ],
   },
+
   {
-    id: 4,
-    brand: "Dreamease",
-    category: "Women's Wellness",
-    image: womenswellness,
-    desc: "Daily wellness gummies and nutrition support.",
-    subproducts: [
-      "UTI Defence Gummies",
-      "Iron Gummies",
-      "Calcium & Vitamin-D Gummies",
-      "Multivitamin & Minerals Gummies",
-    ],
-  },
+  id: 4,
+  brand: "Dreamease",
+  category: "Women's Wellness",
+  image: womenswellness,
+  desc: "Daily wellness gummies and nutrition support.",
+  subproducts: [
+    { name: "UTI Defence Gummies", image: sub41, desc: "Urinary tract defence support" },
+    { name: "Iron Gummies", image: sub42, desc: "Daily iron supplement" },
+    { name: "Calcium & Vitamin-D Gummies", image: sub43, desc: "Bone strength support" },
+    { name: "Multivitamin & Minerals Gummies", image: sub44, desc: "Complete daily nutrition" },
+  ],
+},
+
+
   {
     id: 5,
     brand: "Aurum Care",
