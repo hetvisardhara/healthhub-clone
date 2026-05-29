@@ -97,6 +97,22 @@ import sub728 from "../assets/7.28.png";
 import sub729 from "../assets/7.29.png";
 import sub730 from "../assets/7.30.png";
 
+import sub81 from "../assets/8.1.png";
+import sub82 from "../assets/8.2.png";
+import sub83 from "../assets/8.3.png";
+import sub84 from "../assets/8.4.png";
+import sub85 from "../assets/8.5.png";
+import sub86 from "../assets/8.6.png";
+import sub87 from "../assets/8.7.png";
+import sub88 from "../assets/8.8.png";
+import sub89 from "../assets/8.9.png";
+import sub810 from "../assets/8.10.png";
+import sub811 from "../assets/8.11.png";
+import sub812 from "../assets/8.12.png";
+import sub813 from "../assets/8.13.png";
+import sub814 from "../assets/8.14.png";
+import sub815 from "../assets/8.15.png";
+
 import sub121 from "../assets/12.1.png";
 import sub122 from "../assets/12.2.png";
 import sub123 from "../assets/12.3.png";
@@ -296,21 +312,21 @@ const products = [
   image: fractureaids,
   desc: "Immobilization and fracture management products.",
   subproducts: [
-    "Universal Shoulder Immobilizer",
-    "Elastic Shoulder Immobilizer",
-    "Shoulder Support",
-    "Clavicle Brace",
-    "Arm Sling Pouch (Baggy)",
-    "Pouch Arm Sling (Tropical)",
-    "Arm Immobilizer Adjustable",
-    "Cast Shoes",
-    "Cast Cover Arm",
-    "Cast Cover Leg",
-    "Shoulder Abduction Pillow",
-    "Arm Sling Strap",
-    "Humerus Brace",
-    "Heel Off-loading Shoes",
-    "Forefoot Off-loading Shoes",
+    { name: "Universal Shoulder Immobilizer", image: sub81, desc: "CH, UNI, SPL sizes" },
+    { name: "Elastic Shoulder Immobilizer", image: sub82, desc: "S, M, L, XL, XXL sizes" },
+    { name: "Shoulder Support", image: sub83, desc: "Universal, SPL sizes" },
+    { name: "Clavicle Brace", image: sub84, desc: "CH, S, M, L, XL, XXL sizes" },
+    { name: "Arm Sling Pouch (Baggy)", image: sub85, desc: "CH, S, M, L, XL, XXL sizes" },
+    { name: "Pouch Arm Sling (Tropical)", image: sub86, desc: "CH, S, M, L, XL, XXL sizes" },
+    { name: "Arm Immobilizer Adjustable", image: sub87, desc: "Universal size" },
+    { name: "Cast Shoes", image: sub88, desc: "CH, S, M, L, XL sizes" },
+    { name: "Cast Cover Arm", image: sub89, desc: "Universal size" },
+    { name: "Cast Cover Leg", image: sub810, desc: "Universal size" },
+    { name: "Shoulder Abduction Pillow", image: sub811, desc: "Universal size" },
+    { name: "Arm Sling Strap", image: sub812, desc: "Universal size" },
+    { name: "Humerus Brace", image: sub813, desc: "Universal size" },
+    { name: "Heel Off-loading Shoes", image: sub814, desc: "S, M, L, XL sizes" },
+    { name: "Forefoot Off-loading Shoes", image: sub815, desc: "S, M, L, XL sizes" },
   ],
 },
 {
