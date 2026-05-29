@@ -127,11 +127,12 @@ const products = [
   { name: "Oxygen Mask", image: sub57, desc: "Standard oxygen delivery mask" },
   { name: "Nebulizer Mask", image: sub58, desc: "For nebulization therapy" },
   { name: "Nasal Cannula", image: sub59, desc: "Comfortable nasal oxygen delivery" },
-  { name: "High Oxygen Concentration Mask", image: sub510, desc: "High concentration oxygen mask" },
+  { name: "High Oxygen Concentration Mask", image: sub510, desc: "High concentration oxygen mask" ,contain: true },
   { name: "Au-Care Surgical Gloves", image: sub511, desc: "Sterile surgical gloves" },
-  { name: "Au-Pore Microporous Paper Tape", image: sub512, desc: "Gentle microporous tape" },
+  { name: "Au-Pore Microporous Paper Tape", image: sub512, desc: "Gentle microporous tape" , contain: true },
   { name: "Au-Plast Elastic Adhesive Bandage", image: sub513, desc: "Elastic adhesive bandage" },
 ],
+
   },
   {
     id: 6,
@@ -491,11 +492,11 @@ return matchCat && matchSearch;
     <li key={index} className="modal-subproduct-item">
       {typeof item === "object" && item.image && (
         <div className="modal-subproduct-img-wrap">
-          <img
-            src={item.image}
-            alt={item.name}
-            className="modal-subproduct-img"
-          />
+         <img
+  src={item.image}
+  alt={item.name}
+  className={`modal-subproduct-img ${item.contain ? "modal-subproduct-img-contain" : ""}`}
+/>
         </div>
       )}
       <p className="modal-subproduct-name">

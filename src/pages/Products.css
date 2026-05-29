@@ -530,3 +530,8 @@
   object-fit: cover;
   display: block;
 }
+.modal-subproduct-img-contain {
+  object-fit: contain;
+  padding: 8px;
+  background: #fff;
+}
