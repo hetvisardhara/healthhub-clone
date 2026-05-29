@@ -92,17 +92,7 @@ import sub727 from "../assets/7.27.png";
 import sub728 from "../assets/7.28.png";
 import sub729 from "../assets/7.29.png";
 import sub730 from "../assets/7.30.png";
-import sub731 from "../assets/7.31.png";
-import sub732 from "../assets/7.32.png";
-import sub733 from "../assets/7.33.png";
-import sub734 from "../assets/7.34.png";
-import sub735 from "../assets/7.35.png";
-import sub736 from "../assets/7.36.png";
-import sub737 from "../assets/7.37.png";
-import sub738 from "../assets/7.38.png";
-import sub739 from "../assets/7.39.png";
-import sub740 from "../assets/7.40.png";
-import sub741 from "../assets/7.41.png";
+
 // Category 8
 import sub81 from "../assets/8.1.png";
 import sub82 from "../assets/8.2.png";
