@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Products.css";
-import "./Products.css";
 
+import physiotherapy from "../assets/physiotherapy.jpg";
 import adultincontinence from "../assets/adultincontinence.png";
 import womenswellness from "../assets/womenswellness.png";
 
@@ -207,6 +207,128 @@ import sub1413 from "../assets/14.13.png";
 import sub1414 from "../assets/14.14.png";
 import sub1415 from "../assets/14.15.png";
 import sub1416 from "../assets/14.16.png";
+
+import sub151 from "../assets/15.1.png";
+import sub152 from "../assets/15.2.png";
+import sub153 from "../assets/15.3.png";
+import sub154 from "../assets/15.4.png";
+import sub155 from "../assets/15.5.png";
+import sub156 from "../assets/15.6.png";
+import sub157 from "../assets/15.7.png";
+import sub158 from "../assets/15.8.png";
+import sub159 from "../assets/15.9.png";
+import sub1510 from "../assets/15.10.png";
+import sub1511 from "../assets/15.11.png";
+import sub1512 from "../assets/15.12.png";
+import sub1513 from "../assets/15.13.png";
+import sub1514 from "../assets/15.14.png";
+import sub1515 from "../assets/15.15.png";
+import sub1516 from "../assets/15.16.png";
+
+import sub161 from "../assets/16.1.png";
+import sub162 from "../assets/16.2.png";
+import sub163 from "../assets/16.3.png";
+import sub164 from "../assets/16.4.png";
+import sub165 from "../assets/16.5.png";
+import sub166 from "../assets/16.6.png";
+import sub167 from "../assets/16.7.png";
+import sub168 from "../assets/16.8.png";
+import sub169 from "../assets/16.9.png";
+import sub1610 from "../assets/16.10.png";
+
+import sub171 from "../assets/17.1.png";
+import sub172 from "../assets/17.2.png";
+import sub173 from "../assets/17.3.png";
+
+import sub181 from "../assets/18.1.png";
+import sub182 from "../assets/18.2.png";
+import sub183 from "../assets/18.3.png";
+import sub184 from "../assets/18.4.png";
+import sub185 from "../assets/18.5.png";
+import sub186 from "../assets/18.6.png";
+import sub187 from "../assets/18.7.png";
+import sub188 from "../assets/18.8.png";
+import sub189 from "../assets/18.9.png";
+import sub1810 from "../assets/18.10.png";
+import sub1811 from "../assets/18.11.png";
+import sub1812 from "../assets/18.12.png";
+import sub1813 from "../assets/18.13.png";
+import sub1814 from "../assets/18.14.png";
+import sub1815 from "../assets/18.15.png";
+import sub1816 from "../assets/18.16.png";
+
+// Category 19
+import sub191 from "../assets/19.1.png";
+import sub192 from "../assets/19.2.png";
+import sub193 from "../assets/19.3.png";
+import sub194 from "../assets/19.4.png";
+import sub195 from "../assets/19.5.png";
+import sub196 from "../assets/19.6.png";
+import sub197 from "../assets/19.7.png";
+import sub198 from "../assets/19.8.png";
+import sub199 from "../assets/19.9.png";
+import sub1910 from "../assets/19.10.png";
+import sub1911 from "../assets/19.11.png";
+import sub1912 from "../assets/19.12.png";
+import sub1913 from "../assets/19.13.png";
+import sub1914 from "../assets/19.14.png";
+import sub1915 from "../assets/19.15.png";
+import sub1916 from "../assets/19.16.png";
+import sub1917 from "../assets/19.17.png";
+import sub1918 from "../assets/19.18.png";
+import sub1919 from "../assets/19.19.png";
+// Category 20
+import sub201 from "../assets/20.1.png";
+import sub202 from "../assets/20.2.png";
+import sub203 from "../assets/20.3.png";
+import sub204 from "../assets/20.4.png";
+import sub205 from "../assets/20.5.png";
+import sub206 from "../assets/20.6.png";
+import sub207 from "../assets/20.7.png";
+import sub208 from "../assets/20.8.png";
+import sub209 from "../assets/20.9.png";
+import sub2010 from "../assets/20.10.png";
+import sub2011 from "../assets/20.11.png";
+import sub2012 from "../assets/20.12.png";
+import sub2013 from "../assets/20.13.png";
+import sub2014 from "../assets/20.14.png";
+import sub2015 from "../assets/20.15.png";
+import sub2016 from "../assets/20.16.png";
+import sub2017 from "../assets/20.17.png";
+import sub2018 from "../assets/20.18.png";
+import sub2019 from "../assets/20.19.png";
+import sub2020 from "../assets/20.20.png";
+import sub2021 from "../assets/20.21.png";
+import sub2022 from "../assets/20.22.png";
+import sub2023 from "../assets/20.23.png";
+import sub2024 from "../assets/20.24.png";
+import sub2025 from "../assets/20.25.png";
+import sub2026 from "../assets/20.26.png";
+import sub2027 from "../assets/20.27.png";
+import sub2028 from "../assets/20.28.png";
+import sub2029 from "../assets/20.29.png";
+import sub2030 from "../assets/20.30.png";
+import sub2031 from "../assets/20.31.png";
+import sub2032 from "../assets/20.32.png";
+// Category 21
+import sub211 from "../assets/21.1.png";
+import sub212 from "../assets/21.2.png";
+import sub213 from "../assets/21.3.png";
+import sub214 from "../assets/21.4.png";
+import sub215 from "../assets/21.5.png";
+import sub216 from "../assets/21.6.png";
+import sub217 from "../assets/21.7.png";
+import sub218 from "../assets/21.8.png";
+import sub219 from "../assets/21.9.png";
+import sub2110 from "../assets/21.10.png";
+import sub2111 from "../assets/21.11.png";
+import sub2112 from "../assets/21.12.png";
+import sub2113 from "../assets/21.13.png";
+import sub2114 from "../assets/21.14.png";
+import sub2115 from "../assets/21.15.png";
+import sub2116 from "../assets/21.16.png";
+import sub2117 from "../assets/21.17.png";
+import sub2118 from "../assets/21.18.png";
 
 const products = [
  
@@ -519,6 +641,265 @@ const products = [
   { name: "Pavlik Harness", image: sub1416, desc: "Hip dysplasia harness" },
 ],
   },
+  {
+  id: 15,
+  brand: "Samson",
+  category: "Wrist & Forearm Support / Splints",
+  image: orthopedic,
+  desc: "Supportive wrist, forearm, elbow and thumb braces.",
+  subproducts: [
+    { name: "Wrist Splint (Ambidextrous)", image: sub151, desc: "WR-0801 CH,S,M,L,XL" },
+    { name: "Cock-Up ForeArm Splint (Ambidextrous)", image: sub152, desc: "WR-0802 S,M,L" },
+    { name: "Forearm Splint", image: sub153, desc: "WR-0803 UNIVERSAL" },
+    { name: "Wrist Brace with Double Lock", image: sub154, desc: "WR-0804 UNIVERSAL" },
+    { name: "Wrist Brace with Thumb Support", image: sub155, desc: "WR-0805 UNIVERSAL" },
+    { name: "Tennis Elbow Support", image: sub156, desc: "WR-0806 UNIVERSAL" },
+    { name: "Thumb Spica Splint", image: sub157, desc: "WR-0808 UNIVERSAL" },
+    { name: "Hand Resting Splint (Left / Right)", image: sub158, desc: "WR-0809 UNIVERSAL" },
+    { name: "Wrist Thumb Brace with Silicone Pad (Pair)", image: sub159, desc: "WR-0810 S,L" },
+    { name: "Palm Brace", image: sub1510, desc: "WR-0811 S,M,L,XL" },
+    { name: "Wrist Splint with Thumb", image: sub1511, desc: "WR-0812 S,M,L,XL" },
+    { name: "Elbow Support with Strap", image: sub1512, desc: "WR-0813 S,M,L,XL" },
+    { name: "R.O.M Elbow Brace (Right/Left)", image: sub1513, desc: "WR-0814 UNIVERSAL" },
+    { name: "Tourniquet", image: sub1514, desc: "WR-0815 S,M,L" },
+    { name: "Tennis Elbow Support (Furo) (Pair)", image: sub1515, desc: "WR-0816 S,M,L" },
+    { name: "Tennis Elbow Brace with Silicone Pad", image: sub1516, desc: "WR-0817 S,M,L" },
+  ],
+
+},
+{
+  id: 16,
+  brand: "Samson",
+  category: "Traction Kits",
+  image: orthopedic,
+  desc: "Traction therapy and rehabilitation support products.",
+  subproducts: [
+    { name: "Cervical Traction (Head Halter)", image: sub161, desc: "TR-0901 UNIVERSAL" },
+    { name: "Cervical Traction Kit Sitting with Weight Bag", image: sub162, desc: "TR-0903 UNIVERSAL" },
+    { name: "Cervical Traction Kit Sleeping with Weight Bag", image: sub163, desc: "TR-0905 UNIVERSAL" },
+    { name: "Pelvic Traction Belt", image: sub164, desc: "TR-0908 S,M,L,XL,XXL" },
+    { name: "Pelvic Traction Kit with Weight Bag", image: sub165, desc: "TR-0910 S,M,L,XL,XXL" },
+    { name: "Traction Pulley Bracket", image: sub166, desc: "TR-0912 UNIVERSAL" },
+    { name: "Traction Weight Bag", image: sub167, desc: "TR-0913 UNIVERSAL" },
+    { name: "Skin Traction Set (PUF Liner)", image: sub168, desc: "TR-0915 CH,S,UNIVERSAL" },
+    { name: "Leg Traction Brace", image: sub169, desc: "TR-0917 S,M,L,XL,XXL" },
+    { name: "Ankle Traction Belt", image: sub1610, desc: "TR-0918 UNIVERSAL" },
+  ],
+},
+
+{
+  id: 17,
+  brand: "Samson",
+  category: "Finger Splints",
+  image: orthopedic,
+  desc: "Finger protection and rehabilitation splints.",
+  subproducts: [
+    { name: "Finger Cot", image: sub171, desc: "FN-1003 S,M,L" },
+    { name: "Finger Extension Splint", image: sub172, desc: "FN-1004 S,M,L" },
+    { name: "Mallet Finger Splint", image: sub173, desc: "FN-1008 UNIVERSAL" },
+  ],
+},
+{
+  id: 18,
+  brand: "Samson",
+  category: "Neoprene Support / Braces",
+  image: orthopedic,
+  desc: "Advanced neoprene orthopedic braces and supports.",
+  subproducts: [
+    {
+      name: "Abdominal Binder",
+      image: sub181,
+      desc: "NP-3001 UNIVERSAL,SPL",
+      mrp: "1090",
+    },
+    {
+      name: "Wrist Wrap",
+      image: sub182,
+      desc: "NP-3002 UNIVERSAL",
+      mrp: "250",
+    },
+    {
+      name: "Elbow Wrap",
+      image: sub183,
+      desc: "NP-3003 S,M,L,XL",
+      mrp: "440",
+    },
+    {
+      name: "Knee Support Hinged",
+      image: sub184,
+      desc: "NP-3004 S,M,L,XL,XXL",
+      mrp: "1590",
+    },
+    {
+      name: "Thumb Spica Brace",
+      image: sub185,
+      desc: "NP-3005 S,M,L,XL",
+      mrp: "450",
+    },
+    {
+      name: "Knee Wrap Hinged",
+      image: sub186,
+      desc: "NP-3006 CH,S,M,L,XL,XXL",
+      mrp: "1590",
+    },
+    {
+      name: "Knee Wrap",
+      image: sub187,
+      desc: "NP-3007 UNIVERSAL,SPL",
+      mrp: "1250",
+    },
+    {
+      name: "Wrist/Palm Brace with Thumb Support",
+      image: sub188,
+      desc: "NP-3010 S,M,L,XL",
+      mrp: "450",
+    },
+    {
+      name: "Shoulder Support",
+      image: sub189,
+      desc: "NP-3012 UNIVERSAL,SPL",
+      mrp: "1250",
+    },
+    {
+      name: "Ankle Support",
+      image: sub1810,
+      desc: "NP-3013 UNIVERSAL",
+      mrp: "990",
+    },
+    {
+      name: "Ankle Wrap",
+      image: sub1811,
+      desc: "NP-3014 UNIVERSAL",
+      mrp: "690",
+    },
+    {
+      name: "Wrist Brace with Thumb",
+      image: sub1812,
+      desc: "NP-3015 UNIVERSAL",
+      mrp: "440",
+    },
+    {
+      name: "Knee Support (Sportif)",
+      image: sub1813,
+      desc: "NP-3016 S,M,L,XL,XXL",
+      mrp: "890",
+    },
+    {
+      name: "OA Knee Support Right Varus / Left Valgus",
+      image: sub1814,
+      desc: "NP-3017 S,M,L,XL,XXL",
+      mrp: "1790",
+    },
+    {
+      name: "OA Knee Support Left Varus / Right Valgus",
+      image: sub1815,
+      desc: "NP-3017 S,M,L,XL,XXL",
+      mrp: "1790",
+    },
+    {
+      name: "Hip Brace",
+      image: sub1816,
+      desc: "NP-3018 UNIVERSAL",
+      mrp: "1990",
+    }
+  ],
+},
+{
+  id: 19,
+  brand: "Samson",
+  category: "Foot Care & Support",
+  image: orthopedic,
+  desc: "Foot care, insoles and support products.",
+  subproducts: [
+    { name: "Silicone Insole Pair", image: sub191, desc: "FC-4001 S,M,L,XL" },
+    { name: "Orthotic Insole Pair", image: sub192, desc: "FC-4002 S,M,L,XL" },
+    { name: "Silicone Medical Arch Support Pair", image: sub193, desc: "FC-4003 S,M,L" },
+    { name: "Gel Heel Cushion", image: sub194, desc: "FC-4004 S,L" },
+    { name: "Heel Cushion/Cup Pair", image: sub195, desc: "FC-4005 S,M,L,XL" },
+    { name: "Toe Separator Pair", image: sub196, desc: "FC-4006 S,M,L" },
+    { name: "Metatarsal Pad Pair", image: sub197, desc: "FC-4007 UNIVERSAL" },
+    { name: "Hallux Valgus Splint", image: sub198, desc: "FC-4008 UNIVERSAL" },
+    { name: "Bunion Splint", image: sub199, desc: "FC-4010 UNIVERSAL" },
+    { name: "Arch Support PU Gel Pair", image: sub1910, desc: "FC-4011 CH,AD" },
+    { name: "Silicone Heel Pad Pair", image: sub1911, desc: "FC-4012 UNIVERSAL" },
+    { name: "Silicone Socks Pair", image: sub1912, desc: "FC-4013 UNIVERSAL" },
+    { name: "Arch Support with Silicone Pad Pair", image: sub1913, desc: "FC-4014 UNIVERSAL" },
+    { name: "Bunion Support with Silicone Pad Pair", image: sub1914, desc: "FC-4015 UNIVERSAL" },
+    { name: "Hallux Valgus Night Splint Pair", image: sub1915, desc: "FC-4016 UNIVERSAL" },
+    { name: "Flat Foot Insole Paediatric Pair", image: sub1916, desc: "FC-4017 CH1,CH2,CH3,CH4" },
+    { name: "3/4 Orthotic Insole with Arch Support Pair", image: sub1917, desc: "FC-4018 XS,S,M,L,XL" },
+    { name: "Metatarsal Support", image: sub1918, desc: "FC-4019 UNIVERSAL" },
+    { name: "Toe Spacer", image: sub1919, desc: "FC-4020 UNIVERSAL" },
+  ],
+},
+{
+  id: 20,
+  brand: "Samson",
+  category: "Physiotherapy & Rehabilitation",
+  image: physiotherapy,
+  desc: "Recovery, rehabilitation and physiotherapy aids.",
+  subproducts: [
+    { name: "Cervical Pillow Round", image: sub201, desc: "OP-1401 UNIVERSAL" },
+    { name: "Cervical Pillow Regular", image: sub202, desc: "OP-1402 UNIVERSAL" },
+    { name: "Cervical Pillow Contoured", image: sub203, desc: "OP-1403 UNIVERSAL" },
+    { name: "Cervical Pillow Memory Foam", image: sub204, desc: "OP-1404 UNIVERSAL" },
+    { name: "Cervical Pillow Travel", image: sub205, desc: "OP-1405 UNIVERSAL" },
+    { name: "Tailbone Support Coccyx Cushion", image: sub206, desc: "OP-1406 UNIVERSAL" },
+    { name: "Lumbo Back Rest Moulded Foam", image: sub207, desc: "OP-1408 UNIVERSAL" },
+    { name: "Ring Seat Pillow", image: sub208, desc: "OP-1409 UNIVERSAL" },
+    { name: "Coccyx Cushion Seat", image: sub209, desc: "OP-1410 UNIVERSAL" },
+    { name: "Hospital Back Rest", image: sub2010, desc: "OP-1411 UNIVERSAL" },
+    { name: "Anatomic Pillow", image: sub2011, desc: "OP-1412 UNIVERSAL" },
+    { name: "Lumbo Back Rest Short", image: sub2012, desc: "OP-1413 UNIVERSAL" },
+    { name: "Knee Rest Pillow", image: sub2013, desc: "OP-1414 UNIVERSAL" },
+    { name: "Foot Rest Pillow", image: sub2014, desc: "OP-1415 UNIVERSAL" },
+    { name: "Neck Corrector & Relaxer", image: sub2015, desc: "OP-1419 UNIVERSAL"},
+    { name: "Weight Cuff", image: sub2016, desc: "PA-2001" },
+    { name: "Exercising Gel Ball TPR Egg Shape", image: sub2017, desc: "PA-2002 LIGHT,HEAVY" },
+    { name: "Exercising Ball PU", image: sub2018, desc: "PA-2003 UNIVERSAL" },
+    { name: "Hot & Cold Pack", image: sub2019, desc: "PA-2005 M/L" },
+    { name: "Sam Band Resistance Band", image: sub2020, desc: "PA-2007 O/G/B" },
+    { name: "Hip Resistance Band", image: sub2021, desc: "PA-2008 UNIVERSAL" },
+    { name: "Ice Bag", image: sub2022, desc: "PA-2012 UNIVERSAL" },
+    { name: "Cool Pack", image: sub2023, desc: "PA-2017 S/L" },
+    { name: "Hot & Cold Eye Mask", image: sub2024, desc: "PA-2019 UNIVERSAL" },
+    { name: "Cool Eyes", image: sub2025, desc: "PA-2020 UNIVERSAL" },
+    { name: "Hand Gripper", image: sub2026, desc: "PA-2021 UNIVERSAL" },
+    { name: "Adjustable Hand Gripper", image: sub2027, desc: "PA-2022 UNIVERSAL" },
+    { name: "Wrist & Arm Exerciser", image: sub2028, desc: "PA-2023 UNIVERSAL" },
+    { name: "Piano Finger Exerciser", image: sub2029, desc: "PA-2024 UNIVERSAL" },
+    { name: "Silicone Finger Exerciser", image: sub2030, desc: "PA-2025 UNIVERSAL" },
+    { name: "Gel Exercise Ball Round Shape", image: sub2031, desc: "PA-2026 UNIVERSAL" },
+    { name: "Anti Burst Gym Ball", image: sub2032, desc: "PA-2028 UNIVERSAL" },
+  ],
+},
+{
+  id: 21,
+  brand: "Samson",
+  category: "Walking Aids & Mobility",
+  image: walkingaids,
+  desc: "Mobility assistance and rehabilitation equipment.",
+  subproducts: [
+    { name: "Commode Stool", image: sub211, desc: "WA-1001 UNIVERSAL" },
+    { name: "Commode Chair", image: sub212, desc: "WA-1002 UNIVERSAL" },
+    { name: "Walking Stick Soft Top Handle", image: sub213, desc: "WA-1003 UNIVERSAL" },
+    { name: "Foldable Stick", image: sub214, desc: "WA-1004 UNIVERSAL" },
+    { name: "Quadra Stick", image: sub215, desc: "WA-1005 UNIVERSAL" },
+    { name: "Elbow Crutch Adjustable", image: sub216, desc: "WA-1006 UNIVERSAL" },
+    { name: "Walker Invalid's HD", image: sub217, desc: "WA-1007 UNIVERSAL" },
+    { name: "Walker Invalid's Front Wheel HD", image: sub218, desc: "WA-1008 UNIVERSAL" },
+    { name: "Axillary Crutch Pair", image: sub219, desc: "WA-1009 UNIVERSAL" },
+    { name: "Walking Stick Quadripod", image: sub2110, desc: "WA-1010 UNIVERSAL" },
+    { name: "Wheelchair Standard", image: sub2111, desc: "WA-0809 UNIVERSAL" },
+    { name: "Wheelchair with Commode", image: sub2112, desc: "WA-0609 UNIVERSAL" },
+    { name: "Electric Wheelchair", image: sub2113, desc: "WA-0808 UNIVERSAL" },
+    { name: "Spirometer", image: sub2114, desc: "MT-06 UNIVERSAL" },
+    { name: "Nebuliser", image: sub2115, desc: "MT-09 UNIVERSAL" },
+    { name: "Heating Pad Ortho", image: sub2116, desc: "MT-10 REGULAR/XL" },
+    { name: "Ortho Heating Gel Bag Electric", image: sub2117, desc: "MT-12 UNIVERSAL" },
+    { name: "Air Mattress", image: sub2118, desc: "MT-13 UNIVERSAL" },
+  ],
+},
 ];
 
 const categories = ["All", ...new Set(products.map((p) => p.category))];
@@ -670,16 +1051,26 @@ return matchCat && matchSearch;
               <h4 className="modal-products-heading">Products Included</h4>
             <ul className="modal-subproducts-list">
   {modalProduct.subproducts.map((item, index) => (
-    <li key={index} className="modal-subproduct-item">
-      {typeof item === "object" && item.image && (
-        <div className="modal-subproduct-img-wrap">
-         <img
-  src={item.image}
-  alt={item.name}
-  className={`modal-subproduct-img ${item.contain ? "modal-subproduct-img-contain" : ""}`}
-/>
-        </div>
-      )}
+   <li key={index} className="modal-subproduct-item">
+  <div className="modal-subproduct-img-wrap">
+    {typeof item === "object" && item.image ? (
+      <img
+        src={item.image}
+        alt={item.name}
+        className={`modal-subproduct-img ${item.contain ? "modal-subproduct-img-contain" : ""}`}
+        onError={(e) => {
+          e.target.style.display = "none";
+          e.target.nextSibling.style.display = "flex";
+        }}
+      />
+    ) : null}
+    <div
+      className="modal-subproduct-emoji"
+      style={{ display: typeof item === "object" && item.image ? "none" : "flex" }}
+    >
+      🏥
+    </div>
+  </div>
       <p className="modal-subproduct-name">
         {typeof item === "object" ? item.name : item}
       </p>
