@@ -506,3 +506,11 @@
   object-fit: cover;
   display: block;
 }
+.modal-subproduct-img {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  border: 1px solid #e2e8f0;
+}

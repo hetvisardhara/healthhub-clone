@@ -16,24 +16,34 @@ import physiotherapy from "../assets/physiotherapy.jpg";
 import surgical from "../assets/surgical.jpg";
 import surgicaldressing from "../assets/surgicaldressing.JPG";
 import woundcare from "../assets/woundcare&cotton.jpeg";
+import sub1 from "../assets/1.1.jpg";
+import sub2 from "../assets/1.2.jpg";
+import sub3 from "../assets/1.3.jpeg";
+import sub4 from "../assets/1.4.jpg";
+import sub5 from "../assets/1.5.jpg";
+import sub6 from "../assets/1.6.jpg";
+import sub7 from "../assets/1.7.jpeg";
 
 const products = [
+ 
   {
-    id: 1,
-    brand: "Dreamease",
-    category: "Feminine Hygiene Care",
-     image: hygiene,
-    desc: "Premium feminine hygiene and wellness essentials.",
-    subproducts: [
-      "Disposable Period Panty",
-      "Sanitary Pads Ultra Soft XL with Wings",
-      "Panty Liners (155mm & 185mm)",
-      "Menstrual Cup (Small, Medium & Large)",
-      "Intimate Wash Natural Sulfate Free",
-      "Period Relax & Relief Cream",
-      "Pregnancy Test Kit",
-    ],
-  },
+  id: 1,
+  brand: "Dreamease",
+  category: "Feminine Hygiene Care",
+  image: hygiene,
+  desc: "Premium feminine hygiene and wellness essentials.",
+  subproducts: [
+    { name: "Disposable Period Panty", image: sub1 },
+    { name: "Sanitary Pads Ultra Soft XL with Wings", image: sub2 },
+    { name: "Panty Liners (155mm & 185mm)", image: sub3 },
+    { name: "Menstrual Cup (Small, Medium & Large)", image: sub4 },
+    { name: "Intimate Wash Natural Sulfate Free", image: sub5 },
+    { name: "Period Relax & Relief Cream", image: sub6 },
+    { name: "Pregnancy Test Kit", image: sub7 },
+  ],
+},
+
+
   {
     id: 2,
     brand: "Dreamease",
@@ -447,13 +457,20 @@ const Products = () => {
             <div className="modal-products">
               <h4 className="modal-products-heading">Products Included</h4>
               <ul className="modal-subproducts-list">
-                {modalProduct.subproducts.map((item, index) => (
-                  <li key={index}>
-                    <span className="modal-bullet">✦</span>
-                    {item}
-                  </li>
-                ))}
-              </ul>
+  {modalProduct.subproducts.map((item, index) => (
+    <li key={index}>
+      {typeof item === "object" && item.image && (
+        <img
+          src={item.image}
+          alt={item.name}
+          className="modal-subproduct-img"
+        />
+      )}
+      <span className="modal-bullet">✦</span>
+      {typeof item === "object" ? item.name : item}
+    </li>
+  ))}
+</ul>
             </div>
           </div>
         </div>
