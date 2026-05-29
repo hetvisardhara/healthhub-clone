@@ -61,6 +61,119 @@ import sub610 from "../assets/6.10.jpeg";
 import sub611 from "../assets/6.11.png";
 import sub612 from "../assets/6.12.png";
 
+// Category 7
+import sub71 from "../assets/7.1.png";
+import sub72 from "../assets/7.2.png";
+import sub73 from "../assets/7.3.png";
+import sub74 from "../assets/7.4.png";
+import sub75 from "../assets/7.5.png";
+import sub76 from "../assets/7.6.png";
+import sub77 from "../assets/7.7.png";
+import sub78 from "../assets/7.8.png";
+import sub79 from "../assets/7.9.png";
+import sub710 from "../assets/7.10.png";
+import sub711 from "../assets/7.11.png";
+import sub712 from "../assets/7.12.png";
+import sub713 from "../assets/7.13.png";
+import sub714 from "../assets/7.14.png";
+import sub715 from "../assets/7.15.png";
+import sub716 from "../assets/7.16.png";
+import sub717 from "../assets/7.17.png";
+import sub718 from "../assets/7.18.png";
+import sub719 from "../assets/7.19.png";
+import sub720 from "../assets/7.20.png";
+import sub721 from "../assets/7.21.png";
+import sub722 from "../assets/7.22.png";
+import sub723 from "../assets/7.23.png";
+import sub724 from "../assets/7.24.png";
+import sub725 from "../assets/7.25.png";
+import sub726 from "../assets/7.26.png";
+import sub727 from "../assets/7.27.png";
+import sub728 from "../assets/7.28.png";
+import sub729 from "../assets/7.29.png";
+import sub730 from "../assets/7.30.png";
+import sub731 from "../assets/7.31.png";
+import sub732 from "../assets/7.32.png";
+import sub733 from "../assets/7.33.png";
+import sub734 from "../assets/7.34.png";
+import sub735 from "../assets/7.35.png";
+import sub736 from "../assets/7.36.png";
+import sub737 from "../assets/7.37.png";
+import sub738 from "../assets/7.38.png";
+import sub739 from "../assets/7.39.png";
+import sub740 from "../assets/7.40.png";
+import sub741 from "../assets/7.41.png";
+// Category 8
+import sub81 from "../assets/8.1.png";
+import sub82 from "../assets/8.2.png";
+import sub83 from "../assets/8.3.png";
+import sub84 from "../assets/8.4.png";
+import sub85 from "../assets/8.5.png";
+import sub86 from "../assets/8.6.png";
+import sub87 from "../assets/8.7.png";
+import sub88 from "../assets/8.8.png";
+import sub89 from "../assets/8.9.png";
+import sub810 from "../assets/8.10.png";
+import sub811 from "../assets/8.11.png";
+import sub812 from "../assets/8.12.png";
+import sub813 from "../assets/8.13.png";
+import sub814 from "../assets/8.14.png";
+import sub815 from "../assets/8.15.png";
+// Category 9
+import sub91 from "../assets/9.1.png";
+import sub92 from "../assets/9.2.png";
+import sub93 from "../assets/9.3.png";
+import sub94 from "../assets/9.4.png";
+import sub95 from "../assets/9.5.png";
+import sub96 from "../assets/9.6.png";
+import sub97 from "../assets/9.7.png";
+import sub98 from "../assets/9.8.png";
+import sub99 from "../assets/9.9.png";
+import sub910 from "../assets/9.10.png";
+// Category 10
+import sub101 from "../assets/10.1.png";
+import sub102 from "../assets/10.2.png";
+import sub103 from "../assets/10.3.png";
+import sub104 from "../assets/10.4.png";
+import sub105 from "../assets/10.5.png";
+import sub106 from "../assets/10.6.png";
+import sub107 from "../assets/10.7.png";
+import sub108 from "../assets/10.8.png";
+import sub109 from "../assets/10.9.png";
+import sub1010 from "../assets/10.10.png";
+import sub1011 from "../assets/10.11.png";
+import sub1012 from "../assets/10.12.png";
+import sub1013 from "../assets/10.13.png";
+import sub1014 from "../assets/10.14.png";
+import sub1015 from "../assets/10.15.png";
+import sub1016 from "../assets/10.16.png";
+import sub1017 from "../assets/10.17.png";
+import sub1018 from "../assets/10.18.png";
+import sub1019 from "../assets/10.19.png";
+import sub1020 from "../assets/10.20.png";
+import sub1021 from "../assets/10.21.png";
+import sub1022 from "../assets/10.22.png";
+import sub1023 from "../assets/10.23.png";
+import sub1024 from "../assets/10.24.png";
+import sub1025 from "../assets/10.25.png";
+import sub1026 from "../assets/10.26.png";
+import sub1027 from "../assets/10.27.png";
+import sub1028 from "../assets/10.28.png";
+// Category 11
+import sub111 from "../assets/11.1.png";
+import sub112 from "../assets/11.2.png";
+import sub113 from "../assets/11.3.png";
+import sub114 from "../assets/11.4.png";
+import sub115 from "../assets/11.5.png";
+import sub116 from "../assets/11.6.png";
+import sub117 from "../assets/11.7.png";
+import sub118 from "../assets/11.8.png";
+import sub119 from "../assets/11.9.png";
+import sub1110 from "../assets/11.10.png";
+import sub1111 from "../assets/11.11.png";
+import sub1112 from "../assets/11.12.png";
+import sub1113 from "../assets/11.13.png";
+
 import sub121 from "../assets/12.1.png";
 import sub122 from "../assets/12.2.png";
 import sub123 from "../assets/12.3.png";
@@ -215,128 +328,157 @@ const products = [
 ],
   },
   {
-    id: 7,
-    brand: "Samson",
-    category: "Orthopaedic Supports & Braces",
-    image: orthopedic,
-    desc: "Orthopaedic rehabilitation and support products.",
-    subproducts: [
-      "Cervical Orthosis Philadelphia",
-      "Cervical Collar (Soft with Support, Soft Firm Density & Hard Adjustable)",
-      "Contoured Lumbo Sacral Support",
-      "Lumbo Sacral Belt",
-      "Lumbo Corset",
-      "Taylor's Brace",
-      "Posture Corrector",
-      "Abdominal Belt",
-      "Hernia Belt",
-      "Pelvic Binder",
-      "Chest Binder",
-      "Rib Belt",
-      "Knee Brace Immobilizer",
-      "Elastic Knee Support",
-      "Knee Cap Hinged",
-      "ROM Knee Brace",
-      "Functional Knee Support",
-      "Ankle Brace",
-      "Foot Walker Boot",
-      "Air Ankle Splint",
-      "Shoulder Support",
-      "Clavicle Brace",
-      "Wrist Splint",
-      "Thumb Spica Splint",
-      "ROM Elbow Brace",
-      "Compression Stockings",
-      "Varicose Vein Stockings",
-      "Abdominal Binder",
-      "Hip Brace",
-      "Foot Care Supports",
-      "Finger Splints",
-    ],
-  },
-  {
-    id: 8,
-    brand: "Samson",
-    category: "Fracture Aids",
-    image: fractureaids,
-    desc: "Immobilization and fracture management products.",
-    subproducts: [
-      "Shoulder Immobilizer (Universal & Elastic)",
-      "Shoulder Support",
-      "Clavicle Brace",
-      "Arm Sling Pouch (Baggy & Tropical)",
-      "Arm Immobilizer Adjustable",
-      "Cast Shoes",
-      "Cast Cover (Arm & Leg)",
-      "Shoulder Abduction Pillow",
-      "Arm Sling Strap",
-      "Humerus Brace",
-      "Off-loading Shoes (Heel & Forefoot)",
-    ],
-  },
-  {
-    id: 9,
-    brand: "Samson",
-    category: "Traction Kits",
-    image: tractionkit,
-    desc: "Professional traction systems and accessories.",
-    subproducts: [
-      "Cervical Traction Head Halter",
-      "Cervical Traction Kit (Sitting & Sleeping)",
-      "Pelvic Traction Belt",
-      "Pelvic Traction Kit",
-      "Traction Pulley Bracket",
-      "Traction Weight Bag",
-      "Skin Traction Set PUF Liner",
-      "Leg Traction Brace",
-      "Ankle Traction Belt",
-    ],
-  },
-  {
-    id: 10,
-    brand: "Samson",
-    category: "Physiotherapy & Rehabilitation",
-      image: physiotherapy,
-    desc: "Recovery, rehabilitation and physiotherapy aids.",
-    subproducts: [
-      "Cervical Pillow",
-      "Tailbone Support Coccyx Cushion",
-      "Lumbo Back Rest",
-      "Ring Seat Pillow",
-      "Knee Rest Pillow",
-      "Foot Rest Pillow",
-      "Neck Corrector & Relaxer",
-      "Weight Cuff",
-      "Resistance Band",
-      "Hot & Cold Pack",
-      "Ice Bag",
-      "Hand Gripper",
-      "Wrist & Arm Exerciser",
-      "Anti Burst Gym Ball",
-      "Spirometer",
-      "Nebuliser",
-      "Heating Pad Ortho",
-      "Ortho Heating Gel Bag Electric",
-      "Air Mattress",
-    ],
-  },
-  {
-    id: 11,
-    brand: "Samson",
-    category: "Walking Aids & Mobility",
-    image: walkingaids,
-    desc: "Mobility assistance and rehabilitation equipment.",
-    subproducts: [
-      "Commode (Stool & Chair)",
-      "Walking Stick (Standard, Foldable & Quadra)",
-      "Elbow Crutch Adjustable",
-      "Walker Invalid's (HD & Front Wheel HD)",
-      "Axillary Crutch Pair",
-      "Walking Stick Quadripod",
-      "Wheelchair (Standard, with Commode & Electric)",
-    ],
-  },
-  {
+  id: 7,
+  brand: "Samson",
+  category: "Orthopaedic Supports & Braces",
+  image: orthopedic,
+  desc: "Orthopaedic rehabilitation and support products.",
+  subproducts: [
+    { name: "Cervical Orthosis (Philadelphia)", image: sub71, desc: "Rigid cervical orthosis" },
+    { name: "Cervical Collar Soft with Support", image: sub72, desc: "Soft collar with support" },
+    { name: "Cervical Collar Soft (Firm Density)", image: sub73, desc: "Firm density soft collar" },
+    { name: "Cervical Collar (Hard Adjustable)", image: sub74, desc: "Hard adjustable collar" },
+    { name: "Abdominal Support 9\"/22.5cm", image: sub75, desc: "Abdominal support belt" },
+    { name: "Tummy Trimmer/Abdominal Support 8\"/20cm", image: sub76, desc: "Tummy trimmer support" },
+    { name: "Abdominal Belt", image: sub77, desc: "Post-surgery abdominal belt" },
+    { name: "Ash-Brace (Hyper Extension Brace)", image: sub78, desc: "Hyper extension brace" },
+    { name: "Hernia Belt", image: sub79, desc: "Hernia support belt" },
+    { name: "Scrotal Support", image: sub710, desc: "Scrotal support" },
+    { name: "Pelvic Binder", image: sub711, desc: "Pelvic stabilization binder" },
+    { name: "Rib Belt", image: sub712, desc: "Rib fracture support belt" },
+    { name: "Chest Binder", image: sub713, desc: "Chest compression binder" },
+    { name: "Abdominal Corset (AB-Core)", image: sub714, desc: "Core abdominal corset" },
+    { name: "Hip Corset (Mini Shaper)", image: sub715, desc: "Hip mini shaper corset" },
+    { name: "Thigh Corset (Smart Shaper)", image: sub716, desc: "Thigh smart shaper" },
+    { name: "Contoured Lumbo Sacral Support", image: sub717, desc: "Contoured lumbo sacral support" },
+    { name: "Contoured Lumbo Sacral Support Eco", image: sub718, desc: "Eco lumbo sacral support" },
+    { name: "Lumbo Sacral Belt (Lumbomed)(Neoprene)", image: sub719, desc: "Neoprene lumbo sacral belt" },
+    { name: "Lumbo Sacral Belt", image: sub720, desc: "Standard lumbo sacral belt" },
+    { name: "Lumbo Sacral Belt (Double Support)", image: sub721, desc: "Double support belt" },
+    { name: "Lumbo Sacral Belt (Double Support) variant", image: sub722, desc: "Double support variant" },
+    { name: "Lumbo Corset", image: sub723, desc: "Lumbar corset support" },
+    { name: "Taylor's Brace", image: sub724, desc: "Taylor's spinal brace" },
+    { name: "Lumbo Sacral Belt (Double Support)(Black)", image: sub725, desc: "Black double support belt" },
+    { name: "Contoured Lumbo Sacral Support (Black)", image: sub726, desc: "Black contoured support" },
+    { name: "Lumbo Lacepull Brace", image: sub727, desc: "Lacepull lumbo brace" },
+    { name: "Posture Support (Sleek)", image: sub728, desc: "Sleek posture support" },
+    { name: "Posture Corrector", image: sub729, desc: "Posture correction brace" },
+    { name: "Lacepull LS Belt", image: sub730, desc: "Lacepull LS belt" },
+    { name: "Shoulder Support", image: sub731, desc: "Shoulder compression support" },
+    { name: "Clavicle Brace", image: sub732, desc: "Clavicle fracture brace" },
+    { name: "Wrist Splint", image: sub733, desc: "Wrist immobilization splint" },
+    { name: "Thumb Spica Splint", image: sub734, desc: "Thumb spica splint" },
+    { name: "ROM Elbow Brace", image: sub735, desc: "Range of motion elbow brace" },
+    { name: "Ankle Brace", image: sub736, desc: "Ankle stabilization brace" },
+    { name: "Foot Walker Boot", image: sub737, desc: "Foot walker boot" },
+    { name: "Air Ankle Splint", image: sub738, desc: "Air ankle splint" },
+    { name: "Compression Stockings", image: sub739, desc: "Medical compression stockings" },
+    { name: "Varicose Vein Stockings", image: sub740, desc: "Varicose vein stockings" },
+    { name: "Finger Splints", image: sub741, desc: "Finger immobilization splints" },
+  ],
+},
+{
+  id: 8,
+  brand: "Samson",
+  category: "Fracture Aids",
+  image: fractureaids,
+  desc: "Immobilization and fracture management products.",
+  subproducts: [
+    { name: "Universal Shoulder Immobilizer", image: sub81, desc: "Universal shoulder immobilizer" },
+    { name: "Elastic Shoulder Immobilizer", image: sub82, desc: "Elastic shoulder immobilizer" },
+    { name: "Shoulder Support", image: sub83, desc: "Shoulder compression support" },
+    { name: "Clavicle Brace", image: sub84, desc: "Clavicle fracture brace" },
+    { name: "Arm Sling Pouch (Baggy)", image: sub85, desc: "Baggy arm sling pouch" },
+    { name: "Pouch Arm Sling (Tropical)", image: sub86, desc: "Tropical arm sling" },
+    { name: "Arm Immobilizer Adjustable", image: sub87, desc: "Adjustable arm immobilizer" },
+    { name: "Cast Shoes", image: sub88, desc: "Post-cast walking shoes" },
+    { name: "Cast Cover Arm", image: sub89, desc: "Waterproof arm cast cover" },
+    { name: "Cast Cover Leg", image: sub810, desc: "Waterproof leg cast cover" },
+    { name: "Shoulder Abduction Pillow", image: sub811, desc: "Shoulder abduction pillow" },
+    { name: "Arm Sling Strap", image: sub812, desc: "Arm sling strap" },
+    { name: "Humerus Brace", image: sub813, desc: "Humerus fracture brace" },
+    { name: "Heel Off-loading Shoes", image: sub814, desc: "Heel off-loading shoes" },
+    { name: "Forefoot Off-loading Shoes", image: sub815, desc: "Forefoot off-loading shoes" },
+  ],
+},
+{
+  id: 9,
+  brand: "Samson",
+  category: "Traction Kits",
+  image: tractionkit,
+  desc: "Professional traction systems and accessories.",
+  subproducts: [
+    { name: "Cervical Traction Head Halter", image: sub91, desc: "Head halter traction" },
+    { name: "Cervical Traction Kit Sitting with Weight Bag", image: sub92, desc: "Sitting traction kit" },
+    { name: "Cervical Traction Kit Sleeping with Weight Bag", image: sub93, desc: "Sleeping traction kit" },
+    { name: "Pelvic Traction Belt", image: sub94, desc: "Pelvic traction belt" },
+    { name: "Pelvic Traction Kit with Weight Bag", image: sub95, desc: "Complete pelvic traction kit" },
+    { name: "Traction Pulley Bracket", image: sub96, desc: "Traction pulley bracket" },
+    { name: "Traction Weight Bag", image: sub97, desc: "Traction weight bag" },
+    { name: "Skin Traction Set PUF Liner", image: sub98, desc: "Skin traction PUF liner set" },
+    { name: "Leg Traction Brace", image: sub99, desc: "Leg traction brace" },
+    { name: "Ankle Traction Belt", image: sub910, desc: "Ankle traction belt" },
+  ],
+},
+{
+  id: 10,
+  brand: "Samson",
+  category: "Physiotherapy & Rehabilitation",
+  image: physiotherapy,
+  desc: "Recovery, rehabilitation and physiotherapy aids.",
+  subproducts: [
+    { name: "Cervical Pillow Round", image: sub101, desc: "Round cervical pillow" },
+    { name: "Cervical Pillow Regular", image: sub102, desc: "Regular cervical pillow" },
+    { name: "Cervical Pillow Contoured", image: sub103, desc: "Contoured cervical pillow" },
+    { name: "Cervical Pillow Memory Foam", image: sub104, desc: "Memory foam cervical pillow" },
+    { name: "Cervical Pillow Travel", image: sub105, desc: "Travel cervical pillow" },
+    { name: "Tailbone Support Coccyx Cushion", image: sub106, desc: "Coccyx cushion seat" },
+    { name: "Lumbo Back Rest Moulded Foam", image: sub107, desc: "Moulded foam back rest" },
+    { name: "Ring Seat Pillow", image: sub108, desc: "Ring donut seat pillow" },
+    { name: "Coccyx Cushion Seat", image: sub109, desc: "Coccyx cushion seat" },
+    { name: "Hospital Back Rest", image: sub1010, desc: "Patient bed back support" },
+    { name: "Anatomic Pillow", image: sub1011, desc: "Anatomic support pillow" },
+    { name: "Lumbo Back Rest Short", image: sub1012, desc: "Short lumbo back rest" },
+    { name: "Knee Rest Pillow", image: sub1013, desc: "Knee rest pillow" },
+    { name: "Foot Rest Pillow", image: sub1014, desc: "Foot elevation pillow" },
+    { name: "Neck Corrector & Relaxer", image: sub1015, desc: "Neck corrector relaxer" },
+    { name: "Weight Cuff", image: sub1016, desc: "Rehabilitation weight cuff" },
+    { name: "Exercising Gel Ball TPR Egg Shape", image: sub1017, desc: "TPR egg shape gel ball" },
+    { name: "Exercising Ball PU", image: sub1018, desc: "PU exercising ball" },
+    { name: "Hot & Cold Pack", image: sub1019, desc: "Hot and cold therapy pack" },
+    { name: "Sam Band Resistance Band", image: sub1020, desc: "Resistance exercise band" },
+    { name: "Hip Resistance Band", image: sub1021, desc: "Hip resistance band" },
+    { name: "Ice Bag", image: sub1022, desc: "Ice therapy bag" },
+    { name: "Cool Pack", image: sub1023, desc: "Cool therapy pack" },
+    { name: "Hand Gripper", image: sub1024, desc: "Hand strength gripper" },
+    { name: "Adjustable Hand Gripper", image: sub1025, desc: "Adjustable hand gripper" },
+    { name: "Wrist & Arm Exerciser", image: sub1026, desc: "Wrist and arm exerciser" },
+    { name: "Piano Finger Exerciser", image: sub1027, desc: "Piano finger exerciser" },
+    { name: "Anti Burst Gym Ball", image: sub1028, desc: "Anti burst exercise ball" },
+  ],
+},
+{
+  id: 11,
+  brand: "Samson",
+  category: "Walking Aids & Mobility",
+  image: walkingaids,
+  desc: "Mobility assistance and rehabilitation equipment.",
+  subproducts: [
+    { name: "Commode Stool", image: sub111, desc: "Folding commode stool" },
+    { name: "Commode Chair", image: sub112, desc: "Commode chair with armrests" },
+    { name: "Walking Stick Soft Top Handle", image: sub113, desc: "Soft top handle walking stick" },
+    { name: "Foldable Stick", image: sub114, desc: "Foldable walking stick" },
+    { name: "Quadra Stick", image: sub115, desc: "Four-point quadra stick" },
+    { name: "Elbow Crutch Adjustable", image: sub116, desc: "Adjustable elbow crutch" },
+    { name: "Walker Invalid's HD", image: sub117, desc: "Heavy duty invalid walker" },
+    { name: "Walker Invalid's Front Wheel HD", image: sub118, desc: "Front wheel HD walker" },
+    { name: "Axillary Crutch Pair", image: sub119, desc: "Axillary underarm crutches" },
+    { name: "Walking Stick Quadripod", image: sub1110, desc: "Quadripod walking stick" },
+    { name: "Wheelchair Standard", image: sub1111, desc: "Standard manual wheelchair" },
+    { name: "Wheelchair with Commode", image: sub1112, desc: "Wheelchair with commode" },
+    { name: "Electric Wheelchair", image: sub1113, desc: "Motorized electric wheelchair" },
+  ],
+}, {
     id: 12,
     brand: "Samson",
     category: "Surgical Dressing",
