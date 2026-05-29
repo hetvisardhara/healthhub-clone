@@ -35,6 +35,19 @@ import sub32 from "../assets/3.2.png";
 import sub33 from "../assets/3.3.jpeg";
 import sub34 from "../assets/3.4.jpg";
 import sub35 from "../assets/3.5.jpg";
+import sub51 from "../assets/5.1.jpeg";
+import sub52 from "../assets/5.2.jpg";
+import sub53 from "../assets/5.3.jpeg";
+import sub54 from "../assets/5.4.jpg";
+import sub55 from "../assets/5.5.jpg";
+import sub56 from "../assets/5.6.jpg";
+import sub57 from "../assets/5.7.jpeg";
+import sub58 from "../assets/5.8.jpeg";
+import sub59 from "../assets/5.9.jpg";
+import sub510 from "../assets/5.10.png";
+import sub511 from "../assets/5.11.jpeg";
+import sub512 from "../assets/5.12.png";
+import sub513 from "../assets/5.13.jpeg";
 
 const products = [
  
@@ -105,20 +118,20 @@ const products = [
     image: surgical,
     desc: "Hospital-grade disposable and surgical products.",
     subproducts: [
-      "Au-Fix Infusion Set (Classic & Ultra)",
-      "Au-Safe Disposable Syringes",
-      "Au-Flon IV Cannula",
-      "Scalp Vein Set",
-      "Urine Bag (Classic, Premium, Superior & with Urometer)",
-      "2-Way Foley Balloon Catheter",
-      "Oxygen Mask",
-      "Nebulizer Mask",
-      "Nasal Cannula",
-      "High Oxygen Concentration Mask",
-      "Au-Care Surgical Gloves",
-      "Au-Pore Microporous Paper Tape",
-      "Au-Plast Elastic Adhesive Bandage",
-    ],
+  { name: "Au-Fix Infusion Set (Classic & Ultra)", image: sub51, desc: "Classic & Ultra variants" },
+  { name: "Au-Safe Disposable Syringes", image: sub52, desc: "Safe single-use syringes" },
+  { name: "Au-Flon IV Cannula", image: sub53, desc: "Smooth IV cannula insertion" },
+  { name: "Scalp Vein Set", image: sub54, desc: "Precision scalp vein set" },
+  { name: "Urine Bag (Classic, Premium, Superior & with Urometer)", image: sub55, desc: "Multiple variants available" },
+  { name: "2-Way Foley Balloon Catheter", image: sub56, desc: "2-way balloon catheter" },
+  { name: "Oxygen Mask", image: sub57, desc: "Standard oxygen delivery mask" },
+  { name: "Nebulizer Mask", image: sub58, desc: "For nebulization therapy" },
+  { name: "Nasal Cannula", image: sub59, desc: "Comfortable nasal oxygen delivery" },
+  { name: "High Oxygen Concentration Mask", image: sub510, desc: "High concentration oxygen mask" },
+  { name: "Au-Care Surgical Gloves", image: sub511, desc: "Sterile surgical gloves" },
+  { name: "Au-Pore Microporous Paper Tape", image: sub512, desc: "Gentle microporous tape" },
+  { name: "Au-Plast Elastic Adhesive Bandage", image: sub513, desc: "Elastic adhesive bandage" },
+],
   },
   {
     id: 6,
