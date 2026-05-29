@@ -27,6 +27,14 @@ import sub41 from "../assets/4.1.jpg";
 import sub42 from "../assets/4.2.jpg";
 import sub43 from "../assets/4.3.jpg";
 import sub44 from "../assets/4.4.jpeg";
+import sub21 from "../assets/2.1.jpg";
+import sub22 from "../assets/2.2.jpg";
+import sub23 from "../assets/2.3.jpg";
+import sub31 from "../assets/3.1.jpg";
+import sub32 from "../assets/3.2.jpg";
+import sub33 from "../assets/3.3.jpg";
+import sub34 from "../assets/3.4.jpg";
+import sub35 from "../assets/3.5.jpg";
 
 const products = [
  
@@ -55,10 +63,10 @@ const products = [
     image: baby,
     desc: "Dermatologically safe baby hygiene products.",
     subproducts: [
-      "Baby Diapers Pant Style (NB, S, M, L & XL)",
-      "Baby Wipes Regular 99% Water Based",
-      "Baby Wipes Honey",
-    ],
+  { name: "Baby Diapers Pant Style (NB, S, M, L & XL)", image: sub21, desc: "Soft & gentle on baby skin" },
+  { name: "Baby Wipes Regular 99% Water Based", image: sub22, desc: "99% water based, hypoallergenic" },
+  { name: "Baby Wipes Honey", image: sub23, desc: "Gentle honey formula" },
+],
   },
   {
     id: 3,
@@ -67,12 +75,12 @@ const products = [
     image: adultincontinence,
     desc: "Comfort-focused adult care and protection solutions.",
     subproducts: [
-      "Adult Pant Diaper Standard (M, L & XL)",
-      "Adult Pant Diaper Premium (M, L & XL)",
-      "Adult Tape Diaper Premium (M, L & XL)",
-      "Underpad Sheet Regular",
-      "Underpad Sheet with Sticking Release Tape",
-    ],
+  { name: "Adult Pant Diaper Standard (M, L & XL)", image: sub31, desc: "Comfortable standard fit" },
+  { name: "Adult Pant Diaper Premium (M, L & XL)", image: sub32, desc: "Premium protection & comfort" },
+  { name: "Adult Tape Diaper Premium (M, L & XL)", image: sub33, desc: "Secure tape closure" },
+  { name: "Underpad Sheet Regular", image: sub34, desc: "Absorbent regular underpad" },
+  { name: "Underpad Sheet with Sticking Release Tape", image: sub35, desc: "With sticking release tape" },
+],
   },
 
   {
@@ -330,13 +338,15 @@ const Products = () => {
     const matchCat =
       activeCategory === "All" || p.category === activeCategory;
     const matchSearch =
-      searchQuery.trim() === "" ||
-      p.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      p.desc.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      p.subproducts.some((item) =>
-        item.toLowerCase().includes(searchQuery.toLowerCase())
-      );
-    return matchCat && matchSearch;
+  searchQuery.trim() === "" ||
+  p.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
+  p.desc.toLowerCase().includes(searchQuery.toLowerCase()) ||
+  p.subproducts.some((item) =>
+    (typeof item === "object" ? item.name : item)
+      .toLowerCase()
+      .includes(searchQuery.toLowerCase())
+  );
+return matchCat && matchSearch;
   });
 
   return (
