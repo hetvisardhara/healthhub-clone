@@ -11,7 +11,10 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-inner">
-<img src={logo} alt="HealthHub Solution" className="logo-img" />
+        <Link to="/" className="navbar-logo">
+  <img src={logo} alt="HealthHub Solution" className="logo-img" />
+  <span className="logo-text">HealthHub<br/>Solution</span>
+</Link>
        
 
         {/* DESKTOP LINKS */}
